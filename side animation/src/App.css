@@ -1,0 +1,36 @@
+
+
+.animateUp {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 50%;
+  animation-name: moveSide;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveSide {
+  0% {transform: translateX(-50px); opacity: .2; }
+  25% {transform: translateX(-10px); opacity: .4; }
+  50% {transform: translateX(30px); opacity: .6; }
+  75% {transform: translateX(70px); opacity: .8; }
+  95% {transform: translateX(180px) skew(5deg); opacity: .8; }
+  100% {transform: translateX(110px); opacity: 1;}
+}
+
+
+/* @keyframes moveUp {
+  0% {transform: translateX(0px); opacity: 0 }
+  10% {transform: translateX(0px); opacity: 0 }
+  20% {transform: translateX(0px); opacity: 0 }
+  30% {transform: translateX(0px); opacity: 0 }
+  40% {transform: translateX(0px); opacity: 0 }
+  50% {transform: translateX(0px); opacity: 0 }
+  60% {transform: translateX(0px); opacity: 0 }
+  70% {transform: translateX(0px); opacity: 0 }
+  80% {transform: translateX(0px); opacity: 0 }
+  90% {transform: translateX(10px); opacity: .5;}
+  100% {transform: translateX(10px); opacity: .5;}
+} */
