@@ -1,0 +1,12 @@
+
+.box {
+  height: 200px;
+  width: 200px;
+
+}
+
+
+.box-container {
+  display: flex;
+  justify-content: flex-start;
+}

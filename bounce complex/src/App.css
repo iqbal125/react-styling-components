@@ -1,0 +1,65 @@
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 50%;
+  animation-name: moveUp;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+.box-container {
+  display: flex;
+  justify-content: start;
+}
+
+
+@keyframes moveUp {
+  0% {
+    transform: translate(0px, 120px) ;
+  }
+
+  10% {
+    transform: translate(30px, 80px);
+  }
+
+  20% {
+    transform: translate(60px, 40px);
+  }
+
+  30% {
+    transform: translate(90px, 0px);
+  }
+
+  40% {
+    transform: translate(120px, -40px);
+  }
+
+  50% {
+    transform: translate(150px, -80px);
+  }
+
+  60% {
+    transform: translate(155px, -85px);
+  }
+
+  70% {
+    transform: translate(180px, -40px);
+  }
+
+  80% {
+    transform: translate(210px, 0px);
+  }
+
+  90% {
+    transform: translate(240px, 40px);
+  }
+
+  100% {
+    transform: translate(270px, 80px);
+  }
+
+}

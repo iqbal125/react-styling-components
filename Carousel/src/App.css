@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.active-slide {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+right-button {
+  z-index: 1;
+  float: right;
+}
+
+left-button {
+  z-index: 1;
+  float: left;
+}

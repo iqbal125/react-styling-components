@@ -1,0 +1,31 @@
+
+ul.show {
+  visibility: visible;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: yellow;
+}
+
+ul.hide {
+  visibility: hidden;
+}
+
+li {
+  display: inline;
+  width: 50%;
+  padding: 5px;
+  margin: auto;
+}
+
+li:hover {
+  border-bottom: 1px solid red;
+}
+
+@keyframes shrinkHeader {
+  0% {transform: scaleY(0); opacity: .2; }
+  100% {transform: scaleY(0); opacity: 1;}
+}
